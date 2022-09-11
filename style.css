@@ -9,6 +9,9 @@ header {
   grid-area: 1 / 1 / 1 / 7;
   background-color: lightgray;
 }
+h1 h2 h3 {
+  font-size: 1rem;
+}
 section {
   display: grid;
   grid-template: repeat(4, 1fr) / repeat(4, 1fr);
