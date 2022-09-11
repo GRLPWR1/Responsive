@@ -1,0 +1,61 @@
+body {
+    margin: 0;
+}
+header {
+    display: flex;
+    justify-content: center;
+    background-color: lightgray;
+    color: black;
+    text-align: center;
+    height: 90px;
+    align-items: center;
+}
+main {
+    display: flex
+}
+section {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: peachpuff;
+    width: 60%;
+    height: 400px;
+    justify-content: center;
+    align-items: flex-end;
+}
+section h2 {
+    margin: auto 20% auto 20%;
+}
+section div {
+    background-color: beige;
+    margin: 3%;
+    justify-content: space-between;
+    align-items: flex-end;
+    text-align: center;
+}
+.also1, .also2 {
+    width: 40%;
+}
+.also3 {
+    width: 86%;
+}
+aside {
+    background-color:palegreen;
+    justify-content: center;
+    flex-grow: 1;
+    text-align: center;
+}
+footer {
+    display: flex;
+    background-color: lightgray;
+    height: 90px;
+    justify-content: center;
+}
+footer div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: aliceblue;
+    margin: 2%;
+    width: 20%;
+    text-align: center;
+}
